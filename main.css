@@ -612,6 +612,44 @@ footer .refernces {
 }
 
 @media screen and (max-width: 414px) {
+  body {
+    height: 100%;
+    overflow: scroll;
+    background-size: cover;
+  }
+
+  body .nav-link {
+    float: none !important;
+}
+
+@-webkit-keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 190px;
+  }
+}
+
+@-moz-keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 190px;
+  }
+}
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 190px;
+  }
+}
+
+
   .about-heading h1 {
     font-size: 8rem;
   }
@@ -637,7 +675,7 @@ footer .refernces {
   }
 
   .my-skills p {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   footer p {
@@ -645,11 +683,11 @@ footer .refernces {
   }
 
   footer a {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .email-section h2 {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
 }
 
