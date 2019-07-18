@@ -309,8 +309,8 @@ header {
   padding: 3rem;
 }
 
-.email-section h2 {
-  font-size: 3rem;
+.email-section h3 {
+  font-size: 2rem;
   color: #00ff00bf;
 }
 /*End Contact section*/
@@ -596,7 +596,7 @@ footer .refernces {
     font-size: 2rem;
   }
 
-  .email-section h2 {
+  .email-section h3 {
     font-size: 1.2rem;
   }
 
@@ -686,8 +686,8 @@ footer .refernces {
     font-size: 1rem;
   }
 
-  .email-section h2 {
-    font-size: 1.2rem;
+  .email-section h3 {
+    font-size: 1rem;
   }
 }
 
